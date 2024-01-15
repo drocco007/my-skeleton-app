@@ -1,10 +1,11 @@
 <script>
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { Avatar } from '@skeletonlabs/skeleton';
 </script>
 
 <!-- App Shell -->
-<AppShell>
+<AppShell slotSidebarLeft="bg-surface-500/5 w-56 p-4">
 	<svelte:fragment slot="header">
 		<!-- App Bar -->
 		<AppBar>
@@ -36,8 +37,21 @@
 				>
 					GitHub
 				</a>
+
+				<Avatar src="https://i.pravatar.cc/" />
 			</svelte:fragment>
 		</AppBar>
+	</svelte:fragment>
+
+	<svelte:fragment slot="sidebarLeft">
+		<!-- Insert the list: -->
+		<nav class="list-nav">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+			</ul>
+		</nav>
+		<!-- --- -->
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
