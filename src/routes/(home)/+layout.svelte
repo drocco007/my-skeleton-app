@@ -1,5 +1,5 @@
 <script>
-	import '../app.postcss';
+	import '../../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 	import { Avatar } from '@skeletonlabs/skeleton';
 	import { LightSwitch } from '@skeletonlabs/skeleton';
