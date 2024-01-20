@@ -10,17 +10,17 @@
   }
 </style>
 
-<sveltekit:head>
+<svelte:head>
   <style>
     html {
-      height: auto;
-        overflow: auto;
+      height: auto !important;
+        overflow: auto !important;
     }
 
   </style>
 
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
-</sveltekit:head>
+</svelte:head>
 
 <!--Nav-->
 <nav id="header" class="fixed w-full z-30 top-0 text-white">
@@ -701,11 +701,8 @@
         </div>
       </div>
     </div>
-    <a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500">Background vector created by freepik - www.freepik.com</a>
   </footer>
-  <!-- jQuery if you need it
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
--->
+
   <script>
     var scrollpos = window.scrollY;
     var header = document.getElementById("header");

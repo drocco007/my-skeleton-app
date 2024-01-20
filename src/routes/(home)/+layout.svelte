@@ -50,7 +50,8 @@
 		<nav class="list-nav">
 			<ul>
 				<li><a href="/">Home</a></li>
-				<li><a href="/about">About</a></li>
+				<li><a href="/about">Design Sample 1</a></li>
+				<li><a href="/sample2">Design Sample 2</a></li>
 			</ul>
 		</nav>
 		<!-- --- -->
